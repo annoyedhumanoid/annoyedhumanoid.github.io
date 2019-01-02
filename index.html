@@ -1,23 +1,148 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>uhh</title>
-    <style>
-      body {
-        background-color: #e7b9ff;
-        color: black;
-        font-family: "Didot", "Times New Roman", "Times", serif;
-      }
-      h1 {
-        font-family: "Zapfino", "Snell Roundhand", cursive;
-        text-align: center;
-        font-weight: lighter;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>hey fam</h1>
-    <p>so this is a thing i guess i don't know. okay i'm going to publish it now to see if it works k bye</p>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body {
+                background-color: rgb(255, 238, 255);
+                color: rgb(38, 69, 38);
+                font-family: "Helvetica", "Arial", sans-serif;
+            }
+            h1 {
+                text-align: center;
+                font-family: "Didot", "Times New Roman", "Times", serif;
+                line-height: 1;
+            }
+            h2 {
+                text-align: center;
+                font-family: "Zapfino", "Snell Roundhand", cursive;
+                font-size: 14px;
+                line-height: 0;
+            }
+            h3 {
+                text-align: center;
+                font-family: "Didot", "Times New Roman", "Times", serif;
+                font-size:55px;
+                position: relative;
+                line-height: 1;
+            }
+            #to {
+                top: -60px;
+            }
+            #call {
+                top: -50px;
+            }
+            h4 {
+                text-align: center;
+                position: relative;
+                line-height: 1;
+            }
+            #sip-spill {
+                top: -108px;
+            }
+            #conf-deny {
+                top: -96px;
+            }
+            img {
+                position: relative;
+                width: 100px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #spill-img {
+                top: -100px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 1;
+            }
+            #spill-quote {
+                position: relative;
+                top:-100px;
+            }
+            .quote {
+                text-align: center;
+                font-size: 20px;
+                line-height: 10px;
+                font-family: "Didot", "Times New Roman", "Times", serif;
+            }
+            .start-quote {
+                font-size: 90px;
+                position: relative;
+                top: 35px;
+            }
+            .end-quote {
+                font-size: 90px;
+                position: relative;
+                top: 60px;
+            }
+            .quote-text {
+                background-color: white;
+                padding: 5px 25px 5px 25px;
+                font-style: italic;
+                letter-spacing: 2px;
+            }
+            .subtitle {
+                text-align: center;
+                letter-spacing: 1px;
+            }
+            .answer {
+                text-align: right;
+            }
+            #spill-list {
+                position: relative;
+                top: -91px;
+                width: 80%;
+                margin: 30px auto 0 auto;
+            }
+            #details {
+                position: relative;
+                top: -75px;
+            }
+            #real-img {
+                top: -58px;
+            }
+            #real-quote {
+                position: relative;
+                top: -56px;
+            }
+            #rsvp {
+                position: relative;
+                top: -28px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>tu es invité</h1>
+        <h2>(you are invited)</h2>
+        <h3 id="to">to a tea party</h3>
+        <h4 id="sip-spill">a tea-sipping and tea-spilling party.</h4>
+        <img id="spill-img" src="https://upload.wikimedia.org/wikipedia/fa/5/51/Cupoftea1.png">
+        <div id="spill-quote">
+        <p class="quote"><span class="start-quote">“</span><span class="quote-text">spill the tea, sis</span><span class="end-quote">”</span></p>
+        <p class="subtitle">okay, here's the tea on this party:</p>
+        </div>
+        <div id="spill-list">
+        <p>for:</p>
+        <p class="answer">khan academy</p>
+        <p>when:</p>
+        <p class="answer">satuday, 5 january 2019, 4 p.m. to 7 p.m.</p>
+        <p>where:</p>
+        <p class="answer">my house, 734 cup ave, manhattan, ny</p></div>
+        <p id="details">we will drink tea and share tales of drama from our lives. i will provide the tea and a variety of tea bag flavors, though you are welcome to bring your own tea bags of your favorite flavors. i will also provide some personal drama, but guests are asked to bring drama of their own so the kettle won't run dry before the party ends. there will also be cookies.</p>
+        <img id="real-img" src="https://upload.wikimedia.org/wikipedia/fa/5/51/Cupoftea1.png">
+        <div id="real-quote">
+        <p class="quote"><span class="start-quote">“</span><span class="quote-text">that's the real tea</span><span class="end-quote">”</span></p>
+        <p class="subtitle">yes, it is going to be a great party</p></div>
+        <div id="rsvp">
+        <p>everyone will be there. the tea we share will be piping hot while the tea we drink will be just hot. this is the event of the new year. don't miss out.</p>
+        <h1>répondez s'il vous plaît</h1>
+	    <h2>(respond please)</h2>
+	    <h3 id="call">call (734) 555-7890</h3>
+	    <h4 id="conf-deny">and confirm or deny your attendance.</h4>
+        </div>
+    </body>
 </html>
